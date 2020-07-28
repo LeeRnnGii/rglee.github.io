@@ -151,11 +151,6 @@
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
-        <li class="menu-item menu-item-schedule">
-
-    <a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a>
-
-  </li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -217,6 +212,8 @@
 
       <section class="site-overview-wrap sidebar-panel">
         <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="rglee"
+      src="/images/avatar.png">
   <p class="site-author-name" itemprop="name">rglee</p>
   <div class="site-description" itemprop="description">Hello,world!</div>
 </div>
@@ -239,11 +236,6 @@
       </div>
   </nav>
 </div>
-  <div class="links-of-author animated">
-      <span class="links-of-author-item">
-        <a href="/rglee.dev.cs@gmail.com" title="E-Mail → rglee.dev.cs@gmail.com"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
-      </span>
-  </div>
 
 
 
@@ -414,6 +406,16 @@
   
 
   
+  <script src="//cdn.jsdelivr.net/npm/quicklink@2/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink.listen({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://leernngii.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/',]
+      });
+      });
+  </script>
 
 </body>
 </html>
