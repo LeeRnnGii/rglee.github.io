@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>rglee的博客</title>
+  
+  <subtitle>one man,one world</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://leernngii.github.io/"/>
+  <updated>2020-07-31T03:23:49.150Z</updated>
+  <id>https://leernngii.github.io/</id>
+  
+  <author>
+    <name>rglee</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello,world</title>
+    <link href="https://leernngii.github.io/2020/07/30/Hello-world/"/>
+    <id>https://leernngii.github.io/2020/07/30/Hello-world/</id>
+    <published>2020-07-30T08:57:45.000Z</published>
+    <updated>2020-07-31T03:23:49.150Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello,world"></a>Hello,world</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">"hello,world"</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Hello-world&quot;&gt;&lt;a href=&quot;#Hello-world&quot; class=&quot;headerlink&quot; title=&quot;Hello,world&quot;&gt;&lt;/a&gt;Hello,world&lt;/h1&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;tab
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
